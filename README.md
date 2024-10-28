@@ -1,6 +1,6 @@
-# Shopping Mall Adventure
+# Mall Mania
 
-Welcome to **Shopping Mall Adventure**, a text-based game built with Python! Explore the mall, interact with NPCs, solve puzzles, and collect items to complete various challenges.
+Welcome to **Mall Mania**, a text-based game built with Python! Explore the mall, interact with NPCs, solve puzzles, and collect items to complete various challenges.
 
 ## Game Features
 
