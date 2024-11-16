@@ -1,29 +1,40 @@
 # Mall Mania
 
-Welcome to **Mall Mania**, a text-based game built with Python! Explore the mall, interact with NPCs, solve puzzles, and collect items to complete various challenges.
+Welcome to **Mall Mania**, an exciting 2D adventure game built with Python and Pygame! Explore the mall, interact with NPCs, solve puzzles, and collect items to complete your adventure.
+
+---
 
 ## Game Features
 
-- **Player Movement**: Navigate through different stores and areas in the mall.
-- **Inventory System**: Collect items during your adventure.
-- **Puzzle/Challenge Mechanism**: Solve trivia and word games to progress.
-- **NPC Interactions**: Talk to store owners and other mall characters for hints and help.
+- **Player Movement**: Navigate visually across different stores and areas in the mall.
+- **Inventory System**: Collect and manage items during your journey, displayed on-screen.
+- **Puzzle Challenges**: Solve math, trivia, or word puzzles to earn rewards and progress.
+- **NPC Interactions**: Chat with NPCs for hints and assistance.
+- **Dynamic Gameplay**: Explore a mix of exploration, problem-solving, and interactive challenges with a visual interface.
+
+---
 
 ## Gameplay
 
-The player starts at the mall entrance and can move through different locations, interact with characters, and take on challenges. Here's a sneak peek at the gameplay mechanics:
+Start your journey at the **mall entrance**, explore different areas, and interact with NPCs, puzzles, and items.  
 
-- **Move**: Type `go <location>` to move to a different area.
-- **Take Items**: Collect items by typing `take <item>` when available.
-- **Solve Puzzles**: Solve randomly generated puzzles and win rewards.
-- **Talk**: Engage with NPCs using the `talk <npc>` command.
+### Controls
+- **Arrow Keys**: Move the player around.
+- **Space**: Interact with NPCs or collect items.
+- **ESC**: Exit the game.
+
+---
 
 ## Project Structure
 
 ```plaintext
-shopping_mall_game/
-├── main.py           # Main game script
-├── mall_map.py       # Defines the map of the mall and locations
-├── inventory.py      # Manages the player's inventory system
-├── puzzle.py         # Contains logic for puzzle challenges
-└── npc.py            # Defines NPC interactions and dialogues
+mall_mania/
+├── main.py           # Main game script (entry point)
+├── assets/           # Game assets (images for player, NPCs, and items)
+│   ├── player.png    # Player sprite
+│   ├── npc.png       # NPC sprite
+│   ├── items/        # Item sprites (e.g., burger.png, tshirt.png)
+├── mall_map.py       # Defines the mall map layout and item locations
+├── inventory.py      # Handles inventory logic
+├── puzzle.py         # Puzzle and challenge mechanics
+└── npc.py            # NPC interactions and dialogues
