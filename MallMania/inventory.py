@@ -1,3 +1,5 @@
+import pygame
+import main
 def add_item(inventory, item):
     if item not in inventory:
         inventory.append(item)
