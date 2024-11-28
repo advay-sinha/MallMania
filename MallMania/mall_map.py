@@ -1,9 +1,9 @@
 # Map layout and item locations
 mall_layout = {
     "Entrance": {"neighbors": ["Food Court", "Clothing Store"], "item": None},
-    "Food Court": {"neighbors": ["Entrance", "Electronics Store"], "item": ["Burger","Pizza","Pasta"]},
-    "Clothing Store": {"neighbors": ["Entrance"], "item": ["T-shirt","Jeans","Jacket"]},
-    "Electronics Store": {"neighbors": ["Food Court"], "item": ["Phone","Laptop","Speaker"]}
+    "Food Court": {"neighbors": ["Entrance", "Electronics Store"], "item": ["Pizza"]},
+    "Clothing Store": {"neighbors": ["Entrance"], "item": ["Jacket"]},
+    "Electronics Store": {"neighbors": ["Food Court"], "item": ["Laptop"]}
 }
 
 def get_neighbors(location):
