@@ -27,14 +27,56 @@ Start your journey at the **mall entrance**, explore different areas, and intera
 
 ## Project Structure
 
-```plaintext
-mall_mania/
-├── main.py           # Main game script (entry point)
-├── assets/           # Game assets (images for player, NPCs, and items)
-│   ├── player.png    # Player sprite
-│   ├── npc.png       # NPC sprite
-│   ├── items/        # Item sprites (e.g., burger.png, tshirt.png)
-├── mall_map.py       # Defines the mall map layout and item locations
-├── inventory.py      # Handles inventory logic
-├── puzzle.py         # Puzzle and challenge mechanics
-└── npc.py            # NPC interactions and dialogues
+# MallMania
+
+MallMania is a small Python-based mall exploration game. Explore the mall, interact with NPCs, solve puzzles, and manage your inventory.
+
+## Project structure
+
+- `main.py` — Game entry point and main loop.
+- `mall_map.py` — Map layout and navigation utilities.
+- `npc.py` — NPC definitions and interactions.
+- `puzzle.py` — Puzzle logic used in the game.
+- `inventory.py` — Player inventory management.
+- `assets/` — Static assets used by the game (images, items, etc.).
+
+## Requirements
+
+The project is written for Python 3.8+. There are no external dependencies listed in the repository. If this project uses Pygame or other libraries, add them to a `requirements.txt` or `pyproject.toml` and install before running.
+
+## Quick start
+
+1. (Optional) Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+2. Run the game:
+
+```bash
+python3 main.py
+```
+
+If `main.py` requires any command-line options, run `python3 main.py --help`.
+
+## Development notes
+
+- Follow the repository's existing code style when adding features.
+- Add unit tests near new modules when appropriate.
+- If you add external dependencies, add a `requirements.txt`.
+
+## Contributing
+
+Open issues or pull requests. Keep changes focused and include tests for new behavior.
+
+## License
+
+Add a `LICENSE` file to clarify the project's license. If no license is present, the repository's code is "All rights reserved" by default.
+
+---
+
+If you want, I can also:
+- Add a `requirements.txt` and minimal `pyproject.toml`.
+- Expand the README with screenshots or a short gameplay example.
